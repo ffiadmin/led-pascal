@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "led-pascal", "led-pascal\led-pascal.vcxproj", "{1AA914B6-724C-4D01-A31E-0F8E8BF43628}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udp-interface", "udp-interface\udp-interface.vcxproj", "{37732D6C-A5D2-462E-B5ED-10DF803FE5DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matrix-driver", "matrix-driver\matrix-driver.vcxproj", "{CB5458B1-514C-4326-98A8-52921D3CB037}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA914B6-724C-4D01-A31E-0F8E8BF43628}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AA914B6-724C-4D01-A31E-0F8E8BF43628}.Debug|Win32.Build.0 = Debug|Win32
+		{1AA914B6-724C-4D01-A31E-0F8E8BF43628}.Release|Win32.ActiveCfg = Release|Win32
+		{1AA914B6-724C-4D01-A31E-0F8E8BF43628}.Release|Win32.Build.0 = Release|Win32
+		{37732D6C-A5D2-462E-B5ED-10DF803FE5DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37732D6C-A5D2-462E-B5ED-10DF803FE5DF}.Debug|Win32.Build.0 = Debug|Win32
+		{37732D6C-A5D2-462E-B5ED-10DF803FE5DF}.Release|Win32.ActiveCfg = Release|Win32
+		{37732D6C-A5D2-462E-B5ED-10DF803FE5DF}.Release|Win32.Build.0 = Release|Win32
+		{CB5458B1-514C-4326-98A8-52921D3CB037}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB5458B1-514C-4326-98A8-52921D3CB037}.Debug|Win32.Build.0 = Debug|Win32
+		{CB5458B1-514C-4326-98A8-52921D3CB037}.Release|Win32.ActiveCfg = Release|Win32
+		{CB5458B1-514C-4326-98A8-52921D3CB037}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
