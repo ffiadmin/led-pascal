@@ -1,11 +1,11 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <sys/mman.h>
 #include <unistd.h>
 
 #include "lib.h"
-#include "macros.h"
 
 void setup() {
 	void *gpioMap = NULL;
@@ -13,7 +13,7 @@ void setup() {
 
 //Open a device to map to a physical address
 	if((memoryHandle = open("/dev/mem", O_RDWR | O_SYNC)) < 0) {
-		perror("/dev/mem cannot be opened: %s", strerror(errno));
+		printf("/dev/mem cannot be opened: ", strerror(errno));
 		exit(ERROR_OPENING_DEV_MEM);
 	}
 
@@ -31,7 +31,7 @@ void setup() {
 
 //Check for error conditions
 	if(gpioMap == MAP_FAILED) {
-		perror("mmap error: %d, %s", (int)gpioMap, strerror(errno));
+		printf("mmap error: %d, %s", (int)gpioMap, strerror(errno));
 		exit(ERROR_MAPPING_GPIO_MEM);
 	}
 
