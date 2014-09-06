@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CB5458B1-514C-4326-98A8-52921D3CB037}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,14 +84,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\led-pascal\lib.c" />
-    <ClCompile Include="..\led-pascal\main.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\led-pascal\lib.h" />
-    <ClInclude Include="..\led-pascal\macros.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,18 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\led-pascal\main.c">
+    <ClCompile Include="lib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\led-pascal\lib.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\led-pascal\lib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\led-pascal\macros.h">
+    <ClInclude Include="lib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
